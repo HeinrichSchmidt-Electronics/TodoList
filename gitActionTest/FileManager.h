@@ -60,7 +60,7 @@ public:
     }
 
     void taskDone(const int taskNumber) {
-        if (taskNumber < m_tasks.size() || taskNumber > m_tasks.size())
+        if (taskNumber < 1 || taskNumber > m_tasks.size())
         {
             std::cout << "Такой задачи нет\n";
             std::this_thread::sleep_for(std::chrono::seconds(1));
@@ -72,7 +72,7 @@ public:
     }
 
     void deleteTask(const int taskNumber) {
-        if (taskNumber < m_tasks.size() || taskNumber > m_tasks.size())
+        if (taskNumber < 1 || taskNumber > m_tasks.size())
         {
             std::cout << "Такой задачи нет\n";
             std::this_thread::sleep_for(std::chrono::seconds(1));
