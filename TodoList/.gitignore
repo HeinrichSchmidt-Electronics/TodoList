@@ -1,0 +1,25 @@
+# Папки сборки и кэша Visual Studio (самый «мусор»)
+.vs/
+x64/
+x86/
+Debug/
+Release/
+
+# Внутренняя папка проекта с временными файлами компиляции 
+# (внутри нее лежат файлы .obj)
+TodoList/Debug/
+TodoList/Release/
+TodoList/x64/
+
+# Кэш пакетов NuGet (скачается сам на другом ПК)
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Пользовательские настройки студии
+*.user
+*.userosscache
+*.sln.docstates
+
+# Локальный файл базы данных (чтобы ваши личные задачи не улетали в репозиторий)
+config.json

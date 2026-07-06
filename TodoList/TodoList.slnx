@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="gitActionTest.vcxproj" Id="b1f015a2-846a-4253-a6b0-e4f87dcfe24c" />
+  <Project Path="TodoList.vcxproj" Id="b1f015a2-846a-4253-a6b0-e4f87dcfe24c" />
 </Solution>
